@@ -18,6 +18,7 @@ repositories {
 version = "plus"
 group = "net.ccbluex"
 archivesBaseName = "LiquidBounce"
+configurations.runtimeOnly.setCanBeResolved(true)
 
 sourceCompatibility = targetCompatibility = 1.8
 compileJava.options.encoding = "UTF-8"
